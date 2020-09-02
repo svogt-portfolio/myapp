@@ -12,13 +12,18 @@ Install appropriate tools in your environment (git, nvm, npm/node.js, postgresql
     # Start from <app_root> in terminal.
     cd <app_root>
     
-    # Install node_modules
+    # Install app node_modules
     npm install
     
-    # Run it in a terminal window as follows.  Stop with ^C.  Log messages go to window where you are running it.
+    # Edit <app_root>/config/config.js to add information about the database.  
+    # Run any db migrations.
+    
+    sequelize db:migrate
+        
+    # Run the app in a terminal window as follows.  Stop with ^C.  Log messages go to window where you are running the app.
     DEBUG=myapp:* npm start
     
-    # Access it from your browser as:
+    # Access the app from your browser as:
     http://localhost:3000
 
-This is a 'development' environment app, so we use nodemon to run it so we don't have to restart the app for every code change.
+This is a 'development' environment app, so we use nodemon rather than node to run the app.  Nodemon monitors the code for changes and restarts the app when that happens so that you don't have to restart the app manually to incorporate code changes.
