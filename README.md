@@ -1,5 +1,6 @@
-# myapp_nodejs
-First node.js app!  
+# myapp - node.js
+
+My first node.js app!  
 
 Complete credit goes to this tutorial: [Express.js & Node.js Course for Beginners - Full Tutorial](https://www.youtube.com/watch?v=G8uL0lFFoN0)
 
