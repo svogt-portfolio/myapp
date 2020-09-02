@@ -4,7 +4,7 @@ My first node.js app!
 
 Complete credit goes to this tutorial: [Express.js & Node.js Course for Beginners - Full Tutorial](https://www.youtube.com/watch?v=G8uL0lFFoN0)
 
-Install appropriate tools in your environment (git, nvm, npm/node.js, postgresql, sequelize-cli). Install and start your app as follows:
+Install appropriate tools in your environment (git, nvm, npm/node.js, postgresql, sequelize-cli).  Install and start your app as follows:
   
     # Clone repository.
     git clone ...
